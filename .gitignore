@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.next/
+target/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+lib/api/storage/temp/*
+lib/api/storage/upload/*
+!lib/api/storage/**/.gitkeep
+# never commit database dumps or exported data
+*.sql
+*.xlsx
+*.csv
